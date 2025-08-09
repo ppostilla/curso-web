@@ -1,0 +1,37 @@
+// Variables 
+$gris: #4f4f4f;
+$beige: #DFDBD4;
+
+.button {
+    border: 0px;
+    color: $gris;
+    background-color: transparent;
+}
+
+.button:hover {
+    text-decoration: underline;
+    text-decoration-color: $gris;
+    scale: 1.1;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+@mixin button-styles ($bg-color, $color, $padding, $font-size) {
+    background-color: $bg-color;
+    color: $color;
+    padding: 10px;
+    font-size: $font-size;
+    text-align: center;
+    border: 0;
+}
+
+.button-chico {
+    @include button-styles($beige, black, padding, 15px)
+}
+
+.button-grande {
+    @include button-styles(black, $beige, padding, 24px)
+}

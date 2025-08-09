@@ -1,0 +1,43 @@
+@use "layout/nav";
+@use "layout/reset";
+@use "layout/button";
+@use "layout/animation";
+
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    span-bold {
+        font-weight: 800;
+    }
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+body {
+    font-family: Raleway;
+    width: 97%;
+    margin: 0 auto;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+    font-size: 21px;
+    font-weight: 700;
+    color: black;
+    display: inline;
+}
+
+.categoria {
+    font-weight: 300;  
+}
+
+.container-fluid {
+    padding: 0px;
+}

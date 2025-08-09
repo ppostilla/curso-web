@@ -1,0 +1,17 @@
+$beige: #DFDBD4;
+
+.pintura-acervo {
+    background: radial-gradient($beige, #C7B299);
+    height: 400px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+}
+
+.pintura-encargo {
+    background: linear-gradient($beige, #C7B299);
+    height: 400px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+}
