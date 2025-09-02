@@ -1,8 +1,11 @@
 $beige: #DFDBD4;
 
+.box {
+    height: 50dvh;
+    transition: all;
+}
 .pintura-acervo {
     background: radial-gradient($beige, #C7B299);
-    height: 400px;
     position: relative;
     text-align: center;
     align-content: center;
@@ -10,8 +13,19 @@ $beige: #DFDBD4;
 
 .pintura-encargo {
     background: linear-gradient($beige, #C7B299);
-    height: 400px;
     position: relative;
     text-align: center;
     align-content: center;
+}
+
+.box:hover {
+    scale: 1.05;
+}
+
+.pintura-acervo:hover {
+    background: radial-gradient(#C7B299, $beige);
+}
+
+.pintura-encargo:hover {
+    background: linear-gradient(#C7B299, $beige);
 }

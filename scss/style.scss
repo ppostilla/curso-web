@@ -1,30 +1,24 @@
 @use "layout/nav";
 @use "layout/reset";
 @use "layout/button";
-@use "layout/animation";
+@use "layout/boxes";
+@use "layout/type";
 
-h1 {
-    font-size: 36px;
-    font-weight: 300;
-    span-bold {
-        font-weight: 800;
-    }
-    padding-bottom: 30px;
-}
-
-h2 {
-    font-weight: 300;
-}
+// Variables 
+$gris: #4f4f4f;
+$beige: #DFDBD4;
 
 body {
     font-family: Raleway;
-    width: 97%;
-    margin: 0 auto;
+    //margin: 0 auto;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 img, video {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px
 }
 
 ul {
@@ -44,4 +38,30 @@ ul {
 
 .texto-padding-der {
     padding-right: 20%;
+}
+
+@mixin row ($padding){
+    padding-bottom: $padding;
+}
+.row-padb {
+    @include row(100px)
+}
+
+.footer-pegado {
+    position: absolute;
+    bottom: 0;
+}
+
+.form-control-beige:focus {
+    border-color: $beige;
+    box-shadow: 0 0 0 .25rem rgba(#DFDBD4, 0.50);
+}
+
+//para que todas las img queden de la misma altura
+.fila-fotos {
+    max-height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 25%;
 }

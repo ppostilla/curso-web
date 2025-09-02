@@ -11,7 +11,16 @@ $beige: #DFDBD4;
 .button:hover {
     text-decoration: underline;
     text-decoration-color: $gris;
-    scale: 1.1;
+    font-size: 17px;
+}
+
+.button-pie {
+    color: black;
+}
+
+.button-pie:hover {
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 a {
@@ -26,6 +35,7 @@ a {
     font-size: $font-size;
     text-align: center;
     border: 0;
+    border-radius: 50rem;
 }
 
 .button-chico {
@@ -34,4 +44,8 @@ a {
 
 .button-grande {
     @include button-styles(black, $beige, padding, 24px)
+}
+
+.button-chico:hover {
+    background-color: #C7B299;
 }

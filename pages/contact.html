@@ -21,7 +21,7 @@
         <nav class="container-fluid py-4">
             <div class="row">
                 <div class="col">
-                    <a href="../index.html" class="nav-link"><strong>Roberto Damiani </strong><br>Registros</a>
+                    <a href="../index.html"><img class="logo-chico" src="../img/roberto-damiani_logo.svg" alt="Roberto Damiani logo"></a>
                 </div>
                 <div class="col">
                     <a href="" class="nav-link"></a>
@@ -44,26 +44,48 @@
     <main>
         <h1>Contacto</h1>
         <div class="row">
-            <div class="col-s-12 col-sm-6">
-                <h3 class="pb-5">Lorem ipsum orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci Lorem ipsum dolor sit amet</h3>
+            <div class="col-s-12 col-sm-6 pb-4">
+                <p class="pb-3">Las fotografías se venden en copias digitales aptas para impresión tamaño A4. 
+                    Las pinturas se venden por encargo o reproducciones impresas numeradas de cuadros originales.</p>
+                <p class="pb-3">A través de este formulario podés contactarte para encargar una obra o conocer más sobre el proyecto. 
+                    Cualquier duda o pedido dejala en tus comentarios.</p>
             </div>
-            <div class="col-s-12 col-sm-6">
-                <form class="needs-validation" action="getform.php" method="get">
-                    <label>Nombre: <input type="text"/></label><br />
-                    <label>Apellido: <input type="text" /></label><br />
-                    <label>Mail: <input type="email"/></label><br />
-                    <input type="text" value="Escribí tu mensaje" />
-                    <input type="submit" value="Submit" />
+            <div class="col-s-12 col-sm-6 ps-4">
+                <form class="row">
+                <!-- nombre -->
+                    <div class="col-12 pb-4">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control form-control-beige" id="nombre" placeholder="Nombre" required>
+                    </div>
+                <!-- apellido -->
+                    <div class="col-12 pb-4">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control form-control-beige" id="apellido" placeholder="Apellido" required>
+                    </div>
+                <!-- mail -->
+                    <div class="col-12 pb-4">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control form-control-beige" id="email" placeholder="correo@mail.com" required>
+                    </div>
+                <!-- mensaje -->
+                    <div class="col-12 pb-2">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control form-control-beige" id="mensaje" rows="6" placeholder="Escribí tu mensaje" required></textarea>
+                    </div>
+                <!-- enviar -->
+                    <div class="col-12 pb-4">
+                        <button type="submit" class="btn btn-dark rounded-pill">Enviar</button>
+                    </div>
                 </form>
             </div>
         </div>
     </main>
-    <footer class="py-4">
+    <footer class="py-4 footer-pegado">
         <div class="col-12">
-            Mail — Instagram
+            <a href="mailto:#/" target="_blank" class="button-pie">Mail</a> — <a href="https://www.instagram.com/robertoshapes/" target="_blank" class="button-pie">Instagram</a>
         </div>
         <div class="col-12">
-            Canelones, Uruguay
+            Ciudad de la Costa, Uruguay
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
