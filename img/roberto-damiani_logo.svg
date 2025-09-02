@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 148.1 45.08">
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 143.54 47.79">
   <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
   <defs>
     <style>
       .st0 {
-        font-family: Raleway-Medium, Raleway;
-        font-weight: 500;
-        letter-spacing: .03em;
-      }
-
-      .st1 {
-        font-size: 16.68px;
-      }
-
-      .st2 {
         font-family: Raleway-Bold, Raleway;
         font-weight: 700;
         letter-spacing: .03em;
       }
+
+      .st0, .st1, .st2 {
+        isolation: isolate;
+      }
+
+      .st0, .st2 {
+        font-size: 16.68px;
+      }
+
+      .st2 {
+        font-family: Raleway-Medium, Raleway;
+        font-weight: 500;
+        letter-spacing: .03em;
+      }
     </style>
   </defs>
-  <text class="st1" transform="translate(3.8 17.78)"><tspan class="st2"><tspan x="0" y="0">Roberto Damiani</tspan></tspan><tspan class="st0"><tspan x="0" y="20.02">Registros</tspan></tspan></text>
+  <g class="st1">
+    <text class="st0" transform="translate(-.76 20.49)"><tspan x="0" y="0">Roberto Damiani</tspan></text>
+    <text class="st2" transform="translate(-.76 40.51)"><tspan x="0" y="0">Registros</tspan></text>
+  </g>
 </svg>

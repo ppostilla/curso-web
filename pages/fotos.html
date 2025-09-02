@@ -18,25 +18,35 @@
 </head>
 <body>
     <header>
-        <nav class="container-fluid py-4">
-            <div class="row">
-                <div class="col">
-                    <a href="../index.html"><img class="logo-chico" src="../img/roberto-damiani_logo.svg" alt="Roberto Damiani logo"></a>
-                </div>
-                <div class="col">
-                    <a href="" class="nav-link"></a>
-                </div>
-                <div class="col">
-                    <a href="about.html" class="nav-link">Sobre el proyecto</a>
-                </div>
-                <div class="col">
-                    <a href="fotos.html" class="nav-link">Fotos</a>
-                </div>
-                <div class="col">
-                    <a href="pintura.html" class="nav-link">Pintura</a>
-                </div>
-                <div class="col">
-                    <a href="contact.html" class="nav-link">Contacto</a>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo-chico" src="../img/roberto-damiani_logo.svg" alt="Roberto Damiani logo">
+                </a>
+
+                <!-- hamburguesa -->
+                <button class="navbar-toggler navbar-toggler-r" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item nav-item-r">
+                            <a href="pages/about.html" class="nav-link nav-link-r">Sobre el proyecto</a>
+                        </li>
+                        <li class="nav-item nav-item-r">
+                            <a href="pages/fotos.html" class="nav-link nav-link-r">Fotos</a>
+                        </li>
+                        <li class="nav-item nav-item-r">
+                            <a href="pintura.html" class="nav-link nav-link-r">Pintura</a>
+                        </li>
+                        <li class="nav-item nav-item-r">
+                            <a href="contact.html" class="nav-link nav-link-r">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -131,12 +141,10 @@
             </div>
         </div>
     </main>
-    <footer class="py-4">
+    <footer class="py-4 footer-pegado">
         <div class="col-12">
-            <a href="mailto:#/" target="_blank" class="button-pie">Mail</a> — <a href="https://www.instagram.com/robertoshapes/" target="_blank" class="button-pie">Instagram</a>
-        </div>
-        <div class="col-12">
-            Ciudad de la Costa, Uruguay
+            <a href="mailto:#" target="_blank" class="button-pie">Mail</a> — <a href="https://www.instagram.com/robertoshapes/" target="_blank" class="button-pie">Instagram</a>
+            <p>Ciudad de la Costa, Uruguay</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

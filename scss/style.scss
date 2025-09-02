@@ -3,6 +3,7 @@
 @use "layout/button";
 @use "layout/boxes";
 @use "layout/type";
+@use "layout/footer";
 
 // Variables 
 $gris: #4f4f4f;
@@ -45,11 +46,6 @@ ul {
 }
 .row-padb {
     @include row(100px)
-}
-
-.footer-pegado {
-    position: absolute;
-    bottom: 0;
 }
 
 .form-control-beige:focus {
