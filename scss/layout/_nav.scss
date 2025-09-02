@@ -1,5 +1,5 @@
 header {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .nav-item {
@@ -23,6 +23,12 @@ header {
 .logo-chico {
     width: 130px;
 } 
+
+@media screen and (max-width: 768px) {
+  .logo-chico {
+    width: 230px;
+    display: inline-block;
+}}
 
 .logo-chico:hover  {
     width: 135px;
